@@ -1,0 +1,12 @@
+{
+  "name": "sifu-regular",
+  "version": "1.0.2",
+  "description": "开发常用正则表达式校验包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:public": "npm publish --access=public"
+  },
+  "author": "sifu",
+  "license": "MIT"
+}
