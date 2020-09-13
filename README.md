@@ -24,3 +24,5 @@ sifuRegular.isPhone('123') // false
 
 `isIdCard()` // 是否是身份证号码
 
+`isPostalCode()` // 是否是邮编
+
