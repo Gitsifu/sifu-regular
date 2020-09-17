@@ -1,3 +1,5 @@
+const COMM = require('./comm')
+
 /**
  * 是否是邮箱
  * @param email
@@ -22,7 +24,7 @@ function isUrl(url){
  * @returns {boolean}
  */
 function isPhone(phone){
-    return /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/.test(phone)
+    return COMM.phone.test(phone)
 }
 
 /**
