@@ -1,11 +1,11 @@
 'use strict'
 
-import {isEmail,isUrl,isPhone,isIdCard,isPostalCode} from './validate'
+const sifuRegular = require('./validate')
 
 module.exports = {
-    isEmail,
-    isUrl,
-    isPhone,
-    isIdCard,
-    isPostalCode
+    isEmail: sifuRegular.isEmail,
+    isUrl: sifuRegular.isUrl,
+    isPhone: sifuRegular.isPhone,
+    isIdCard: sifuRegular.isIdCard,
+    isPostalCode: sifuRegular.isPostalCode
 }

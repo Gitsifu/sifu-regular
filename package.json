@@ -1,6 +1,6 @@
 {
   "name": "sifu-regular",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "开发常用正则表达式校验包",
   "main": "index.js",
   "scripts": {
